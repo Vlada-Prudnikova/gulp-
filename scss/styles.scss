@@ -1,0 +1,14 @@
+$color: pink;
+$height: 10px;
+
+body {
+  background: $color;
+}
+
+/*Comment*/
+
+div {
+  background: violet;
+  width: 100px;
+  height: 100px + $height;
+}
